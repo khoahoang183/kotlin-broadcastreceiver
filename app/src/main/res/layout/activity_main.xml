@@ -27,4 +27,14 @@
         android:padding="2dp"
         app:layout_constraintEnd_toStartOf="@+id/tvBatteryPercent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imgWifi"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:tint="@color/design_default_color_primary"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
